@@ -8,10 +8,12 @@ function App() {
   const [dice, setDice] = useState([null, null, null, null, null]);
 
   function changeDice() {
-    dice.map(() => {
+    setDice([])
+    dice.map((die) => {
       const randomNumber = Math.floor(Math.random() * 6);
-      setDice((prevState) => [...prevState, randomNumber])
+      setDice((prevState) => [...prevState, die = randomNumber])
     })
+    console.log('Length: ', dice.length)
   }
 
   return (
