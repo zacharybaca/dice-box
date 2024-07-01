@@ -1,0 +1,30 @@
+#dice-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+}
+
+#list {
+    display: flex;
+    padding: 3%;
+    gap: 10px;
+}
+
+#list > li {
+    background-color: white;
+    font-size: 20px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#button-container > button {
+    width: 110px;
+    border-radius: 10px;
+    font-size: 25px;
+}

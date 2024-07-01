@@ -1,0 +1,9 @@
+#app-header {
+    text-align: center;
+    font-size: 30px;
+}
+
+#app-container {
+    background-color: tan;
+    height: 100vh;
+}

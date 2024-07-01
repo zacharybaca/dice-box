@@ -17,8 +17,8 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>Change Dice Project</h1>
+    <div id="app-container">
+      <h1 id="app-header">Change Dice Project</h1>
       <DiceBox dice={dice} changeDice={changeDice}/>
     </div>
   )
